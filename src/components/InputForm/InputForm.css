@@ -1,0 +1,102 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .loader-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .prompts-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .prompt-field {
+    margin-bottom: 15px; /* Increased margin for additional space */
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+  label {
+    margin-right: 5px; /* Space between label and input box */
+  }
+  
+  #prompt1,
+  #prompt2,
+  #prompt3,
+  #prompt4,
+  #prompt5,
+  #prompt6,
+  #prompt7,
+  #prompt8,
+  #prompt9,
+  #prompt10 {
+    width: 250px; /* Adjust the width as needed */
+    padding: 8px; /* Increase padding for a larger input box */
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+  button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Comic Sans MS', cursive;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #1f9e87;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .image-container {
+    margin-top: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .title h2{
+    color: white;
+  }
+  .title p{
+    color: white;
+    font-size: 15px;
+  }
+  /* Additional styles for responsiveness */
+  @media (max-width: 600px) {
+    #prompt1,
+    #prompt2,
+    #prompt3,
+    #prompt4,
+    #prompt5,
+    #prompt6,
+    #prompt7,
+    #prompt8,
+    #prompt9,
+    #prompt10 {
+      width: 80%;
+    }
+  }
+  
